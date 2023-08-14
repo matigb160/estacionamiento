@@ -1,6 +1,7 @@
-//Create a reference for canvas 
+canvas=document.getelementbyid("myCanvas");
 
-//Give specific height and width to the car image
+//Give specific height and width to the car 
+ctx = canvas.getContext("2d"); greencar_width = 75; greencar_height = 100;
 
 background_image = "parkingLot.jpg";
 greencar_image = "car2.png";
